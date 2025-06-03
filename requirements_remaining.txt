@@ -2,6 +2,7 @@ torch==2.2.2
 torchvision==0.17.2
 einops==0.7.0
 accelerate==0.21.0
+huggingface-hub==0.25.2 # 0.26.0 removes cached_download which is used a lot in this repo
 transformers==4.31.0
 torchmetrics==1.2.1
 pandas==2.0.3

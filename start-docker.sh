@@ -1,0 +1,1 @@
+docker run -v ./checkpoints:/app/checkpoints -it --gpus all -p 8888:8888 diffusionsat:latest
